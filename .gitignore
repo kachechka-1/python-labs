@@ -1,0 +1,20 @@
+# Звіти та інші Word-документи (містять особисті дані)
+*.docx
+*.doc
+~$*
+
+# Методичні матеріали викладача
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Службові файли ОС / редакторів
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+.DS_Store
