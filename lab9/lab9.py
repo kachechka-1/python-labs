@@ -3,7 +3,7 @@
 import math as m
 
 
-def heron_area(a, b, c):
+def calculation_heron_area(a, b, c):
     """
     Обчислює площу трикутника за формулою Герона.
     Аргументи:
@@ -30,7 +30,7 @@ if __name__ == "__main__":
     a, b, c = storona
     # трикутник існує, якщо сторони додатні і кожна менша за суму двох інших
     if a > 0 and b > 0 and c > 0 and a + b > c and a + c > b and b + c > a:
-        area = heron_area(a, b, c)   # виклик функції
+        area = calculation_heron_area(a, b, c)   # виклик функції
         print("Площа трикутника: ", area)
     else:
         print("Такого трикутника не існує")
