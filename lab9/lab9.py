@@ -1,6 +1,6 @@
 # Лабораторна робота № 9. Файли (скрипти) та файли-функції (модулі). Варіант № 4
-# Площа трикутника за формулою Герона: функція heron_area і програма, яка її викликає
-import math as m
+# Площа трикутника за формулою Герона: функція calculation_heron_area і програма, яка її викликає
+import math
 
 
 def calculation_heron_area(a, b, c):
@@ -14,7 +14,7 @@ def calculation_heron_area(a, b, c):
     # Обчислення півпериметра: p = (a + b + c) / 2
     p = (a + b + c) / 2
     # Обчислення площі: S = sqrt(p(p - a)(p - b)(p - c))
-    S = m.sqrt(p * (p - a) * (p - b) * (p - c))
+    S = math.sqrt(p * (p - a) * (p - b) * (p - c))
     return S
 
 
