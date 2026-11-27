@@ -12,7 +12,7 @@
 
 ## Як запустити
 
-1. Встановити [Python 3](https://www.python.org/downloads/).
+1. Встановити [Python 3.11 або новіший](https://www.python.org/downloads/) (лаба 10 використовує `math.cbrt`, який з'явився в 3.11).
 2. Запустити скрипт потрібної лаби, наприклад:
    ```
    python lab9/lab9.py
